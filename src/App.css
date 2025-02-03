@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #181a1b;
+}
+
+h1, h2, h3 {
+  font-family: 'Merriweather', serif;
+}
+
+.main-body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  width: 20%;
+}
+
+.question-card {
+  background-color: #7e1326;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+  border-radius: 20px;
+  margin: 2%;
+}
+
+.option {
+  background-color: #650f1e;
+  color: white;
+  padding: 5%;
+  border-radius: 12px;
+}
+
+.option-selected {
+  background-color: #4E0000;
+  border: 1px solid white;
+  color: white;
+  padding: 5%;
+  border-radius: 12px;
+}
+
+button {
+  background-color: #7e1326;  
+  border: 2px solid #4E0000;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;  
+}
