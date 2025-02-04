@@ -1,24 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 
-function Options({ options, handleOptionClick }) {
-  const [selectedOption, setSelectedOption] = useState(null);
-
-  const handleOptionSelected = (index) => {
-    setSelectedOption(index); 
-  };
-
-  function handleOptionSelection(i, option) {
-    handleOptionSelected(i);  
-    handleOptionClick(option); 
-  }
-
+function Options({ options, handleOptionClick, selectedOption }) {
   return (
     <>
       {options.map((option, i) => (
         <p
-          className={`option ${selectedOption === i ? "option-selected" : ""}`}  // Conditionally add the "option-selected" class
+          className={`option ${selectedOption === i ? "option-selected" : ""}`}
           key={i}
-          onClick={() => handleOptionSelection(i, option)} 
+          onClick={() => handleOptionClick(option, i)}
         >
           {option.text}
         </p>

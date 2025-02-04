@@ -1,5 +1,5 @@
 import "./App.css";
-import QuestionBox from "./components/QuestionBox";
+import Welcome from "./components/Welcome";
 
 function App() {
   return (
@@ -7,10 +7,10 @@ function App() {
       <div className="main-body">
         <img
           className="logo"
-          src="/Kristiania_logo_vertikal_stor_22_hvit.png"
+          src="./Kristiania_logo_vertikal_stor_22_hvit.png"
           alt="logo"
         />
-        <QuestionBox />
+        <Welcome />
       </div>
     </>
   );

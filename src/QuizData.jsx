@@ -121,4 +121,79 @@ const tek = [
       }
   ];
 
-  export default { cat, tek, eco };
+  const ecoBachelorPrograms = {
+    okonomiLedelse: {
+      name: "Bachelor i økonomi og ledelse",
+      category: "led",
+      url: "https://www.kristiania.no/studier/bachelor/okonomi-og-ledelse/",
+      description: "Description for Bachelor i økonomi og ledelse." // Add your description here
+    },
+    digitaliseringOkonomi: {
+      name: "Bachelor i digitalisering og økonomi",
+      category: "digi",
+      url: "https://www.kristiania.no/studier/bachelor/digitalisering-og-okonomi/",
+      description: "Description for Bachelor i digitalisering og økonomi." // Add your description here
+    },
+    logistikkSCM: {
+      name: "Bachelor i logistikk og Supply Chain Management",
+      category: "logi",
+      url: "https://www.kristiania.no/studier/bachelor/logistikk-og-supply-chain-management/",
+      description: "Description for Bachelor i logistikk og Supply Chain Management." // Add your description here
+    },
+    innovasjonForretningsutvikling: {
+      name: "Bachelor i innovasjon og forretningsutvikling",
+      category: "Inno",
+      url: "https://www.kristiania.no/studier/bachelor/innovasjon-og-forretningsutvikling/",
+      description: "Description for Bachelor i innovasjon og forretningsutvikling." // Add your description here
+    }
+  };
+
+  const techBachelorPrograms = {
+    cybersikkerhet: {
+      name: "Bachelor i Cybersikkerhet",
+      category: "cyb",
+      url: "https://www.kristiania.no/studier/bachelor/cybersikkerhet/",
+      description: "Description for Bachelor i Cybersikkerhet." // Add your description here
+    },
+    artificialIntelligence: {
+      name: "Bachelor i Artificial Intelligence",
+      category: "ai",
+      url: "https://www.kristiania.no/studier/bachelor/artificial-intelligence/",
+      description: "Description for Bachelor i Artificial Intelligence." // Add your description here
+    },
+    dataScience: {
+      name: "Bachelor i Data Science",
+      category: "data",
+      url: "https://www.kristiania.no/studier/bachelor/data-science/",
+      description: "Description for Bachelor i Data Science." // Add your description here
+    },
+    informasjonsteknologi: {
+      category: "inf",
+      programs: [
+        {
+          name: "Bachelor i informasjonsteknologi - Programmering",
+          url: "https://www.kristiania.no/studier/bachelor/informasjonsteknologi-programmering/",
+          description: "Description for Bachelor i informasjonsteknologi - Programmering." // Add your description here
+        },
+        {
+          name: "Bachelor i informasjonsteknologi - Frontend- og mobilutvikling",
+          url: "https://www.kristiania.no/studier/bachelor/informasjonsteknologi-frontend-og-mobilutvikling/",
+          description: "Description for Bachelor i informasjonsteknologi - Frontend- og mobilutvikling." // Add your description here
+        },
+        {
+          name: "Bachelor i informasjonsteknologi - E-business",
+          url: "https://www.kristiania.no/studier/bachelor/informasjonsteknologi-e-business/",
+          description: "Description for Bachelor i informasjonsteknologi - E-business." // Add your description here
+        },
+        {
+          name: "Bachelor i informasjonsteknologi - Interaksjonsdesign",
+          url: "https://www.kristiania.no/studier/bachelor/informasjonsteknologi-interaksjonsdesign/",
+          description: "Description for Bachelor i informasjonsteknologi - Interaksjonsdesign." // Add your description here
+        }
+      ]
+    }
+  };
+  
+  
+
+  export default { cat, tek, eco, ecoBachelorPrograms, techBachelorPrograms };
