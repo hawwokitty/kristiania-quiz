@@ -124,25 +124,25 @@ const tek = [
   const ecoBachelorPrograms = {
     okonomiLedelse: {
       name: "Bachelor i økonomi og ledelse",
-      category: "led",
+      category: "Økonomi og ledelse",
       url: "https://www.kristiania.no/studier/bachelor/okonomi-og-ledelse/",
       description: "Description for Bachelor i økonomi og ledelse." // Add your description here
     },
     digitaliseringOkonomi: {
       name: "Bachelor i digitalisering og økonomi",
-      category: "digi",
+      category: "Digitalisering og økonomi",
       url: "https://www.kristiania.no/studier/bachelor/digitalisering-og-okonomi/",
       description: "Description for Bachelor i digitalisering og økonomi." // Add your description here
     },
     logistikkSCM: {
       name: "Bachelor i logistikk og Supply Chain Management",
-      category: "logi",
+      category: "Logistikk og Supply Chain Management",
       url: "https://www.kristiania.no/studier/bachelor/logistikk-og-supply-chain-management/",
       description: "Description for Bachelor i logistikk og Supply Chain Management." // Add your description here
     },
     innovasjonForretningsutvikling: {
       name: "Bachelor i innovasjon og forretningsutvikling",
-      category: "Inno",
+      category: "Innovasjon og forretningsutvikling",
       url: "https://www.kristiania.no/studier/bachelor/innovasjon-og-forretningsutvikling/",
       description: "Description for Bachelor i innovasjon og forretningsutvikling." // Add your description here
     }
@@ -151,24 +151,24 @@ const tek = [
   const techBachelorPrograms = {
     cybersikkerhet: {
       name: "Bachelor i Cybersikkerhet",
-      category: "cyb",
+      category: "Cybersikkerhet",
       url: "https://www.kristiania.no/studier/bachelor/cybersikkerhet/",
       description: "Description for Bachelor i Cybersikkerhet." // Add your description here
     },
     artificialIntelligence: {
       name: "Bachelor i Artificial Intelligence",
-      category: "ai",
+      category: "Artificial Intelligence",
       url: "https://www.kristiania.no/studier/bachelor/artificial-intelligence/",
       description: "Description for Bachelor i Artificial Intelligence." // Add your description here
     },
     dataScience: {
       name: "Bachelor i Data Science",
-      category: "data",
+      category: "Data Science",
       url: "https://www.kristiania.no/studier/bachelor/data-science/",
       description: "Description for Bachelor i Data Science." // Add your description here
     },
     informasjonsteknologi: {
-      category: "inf",
+      category: "Informasjonsteknologi",
       programs: [
         {
           name: "Bachelor i informasjonsteknologi - Programmering",

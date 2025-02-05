@@ -1,76 +1,54 @@
-import React, { useState, useEffect } from 'react';
-import QuizData from '../QuizData';
+import React, { useState, useEffect } from "react";
+import QuizData from "../QuizData";
 
 const { ecoBachelorPrograms, techBachelorPrograms } = QuizData;
 
-function Result({ result, allResults }) {
-  const [showResult, setShowResult] = useState(null);
-  console.log(result);
-  
+function Result({ allResults }) {
+  const [sortedPrograms, setSortedPrograms] = useState([]);
 
   useEffect(() => {
-    let program = null;
+    // Determine if the category belongs to tech or eco programs
+    const isTechCategory = allResults.some(result =>
+      Object.values(techBachelorPrograms).some(program => program.category === result.category)
+    );
 
-    // Handle Tech Programs
-    switch (result) {
-      case "cyb":
-        program = techBachelorPrograms.cybersikkerhet;
-        break;
-      case "ai":
-        program = techBachelorPrograms.artificialIntelligence;
-        break;
-      case "data":
-        program = techBachelorPrograms.dataScience;
-        break;
-      case "inf":
-        program = techBachelorPrograms.informasjonsteknologi.programs;
-        break;
+    // Choose the correct program set
+    const selectedPrograms = isTechCategory ? { ...techBachelorPrograms } : { ...ecoBachelorPrograms };
+    console.log(selectedPrograms);
+    console.log(allResults);
+    
 
-      // Handle Eco Programs
-      case "led":
-        program = ecoBachelorPrograms.okonomiLedelse;
-        break;
-      case "digi":
-        program = ecoBachelorPrograms.digitaliseringOkonomi;
-        break;
-      case "logi":
-        program = ecoBachelorPrograms.logistikkSCM;
-        break;
-      case "inno":
-        program = ecoBachelorPrograms.innovasjonForretningsutvikling;
-        break;
+    // Add percentages
+    allResults.forEach(({ category, percentage }) => {
+      for (const key in selectedPrograms) {
+        if (selectedPrograms[key].category === category) {
+          selectedPrograms[key] = {
+            ...selectedPrograms[key],
+            percentage: parseFloat(percentage) // Convert to number for sorting
+          };
+        }
+      }
+    });
 
-      default:
-        program = null; // Handle unexpected cases
-    }
+    // Convert object to array for sorting
+    const programsArray = Object.values(selectedPrograms);
 
-    setShowResult(program);
-  }, [result]);
+    // Sort by percentage in descending order
+    programsArray.sort((a, b) => (b.percentage || 0) - (a.percentage || 0));
+
+    setSortedPrograms(programsArray);
+  }, [allResults]);
 
   return (
-    <div>
-      {Array.isArray(showResult) ? (
-        showResult.map((program, index) => (
-          <div key={index}>
-            <h2>{program.name}</h2>
-            <p>{program.description}</p>
-            <a href={program.url} target="_blank" rel="noopener noreferrer">
-              {program.url}
-            </a>
-            <hr />
-          </div>
-        ))
-      ) : showResult ? (
-        <div>
-          <h2>{showResult.name}</h2>
-          <p>{showResult.description}</p>
-          <a href={showResult.url} target="_blank" rel="noopener noreferrer">
-            {showResult.url}
-          </a>
+    <div className="question-card">
+      {sortedPrograms.map((program, index) => (
+        <div key={index}>
+          <h3>{program.name || program.category}</h3>
+          <p>{program.description}</p>
+          <a href={program.url}>link til studieprogramside</a>
+          <p>Percentage: {program.percentage !== undefined ? `${program.percentage}%` : "N/A"}</p>
         </div>
-      ) : (
-        <p>No program found.</p>
-      )}
+      ))}
     </div>
   );
 }

@@ -60,7 +60,7 @@ function CatQuiz() {
       };
     });
 
-    console.log("Resultater:", percentages);
+    // console.log("Resultater:", percentages);
 
     const ecoCount =
       categoryCounts["Økonomi og administrasjon"] +

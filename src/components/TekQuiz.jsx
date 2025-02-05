@@ -13,7 +13,7 @@ function TekQuiz() {
   const [arrayOfPickedAnswers, setArrayOfPickedAnswers] = useState([]);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [selectedOption, setSelectedOption] = useState(null);
-  const [quizResult, setQuizResult] = useState(null);
+  const [quizPercentage, setQuizPercentage] = useState(null);
 
   const handleNext = () => {
     if (selectedAnswer) {
@@ -40,8 +40,8 @@ function TekQuiz() {
   // 🧮 Calculate the category percentages and determine the quiz result
   const calculateCategoryPercentages = (answers) => {
     const categoryCounts = {
-      Cybersikkerhet: 0,
-      Informasjonsteknologi: 0,
+      "Cybersikkerhet": 0,
+      "Informasjonsteknologi": 0,
       "Data Science": 0,
       "Artificial Intelligence": 0,
     };
@@ -60,38 +60,15 @@ function TekQuiz() {
       };
     });
 
-    console.log("Resultater:", percentages);
+    // console.log("Resultater:", percentages);
+    setQuizPercentage(percentages);
 
-    const cybCount = categoryCounts["Cybersikkerhet"];
-    const infCount = categoryCounts["Informasjonsteknologi"];
-    const dataCount = categoryCounts["Data Science"];
-    const aiCount = categoryCounts["Artificial Intelligence"];
-
-    // Find the highest count
-    const maxCount = Math.max(cybCount, infCount, dataCount, aiCount);
-
-    // Identify all categories with the highest count
-    const tiedCategories = [];
-
-    if (cybCount === maxCount) tiedCategories.push("cyb");
-    if (infCount === maxCount) tiedCategories.push("inf");
-    if (dataCount === maxCount) tiedCategories.push("data");
-    if (aiCount === maxCount) tiedCategories.push("ai");
-
-    // Handle tie cases
-    if (tiedCategories.length === 1) {
-      // No tie, a clear winner
-      setQuizResult(tiedCategories[0]);
-    } else {
-      // Tie detected
-      setQuizResult("tie");
-    }
   };
 
   // 🎯 Conditionally render the quiz result
-  if (quizResult != null) {
+  if (quizPercentage != null) {
     return (
-      <Result result={quizResult} />
+      <Result allResults={quizPercentage}/>
     );
   }
 
