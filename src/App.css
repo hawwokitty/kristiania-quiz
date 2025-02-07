@@ -37,6 +37,7 @@ h1, h2, h3 {
 
 .option {
   background-color: #7e1326;
+  border: 1px solid #7e1326;
   color: white;
   padding: 5%;
   border-radius: 12px;
