@@ -60,7 +60,6 @@ function EcoQuiz() {
       };
     });
 
-    // console.log("Resultater:", percentages);
     setQuizPercentage(percentages);
 
   };
