@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #181a1b;
+  background-color: white;
 }
 
 h1, h2, h3 {
@@ -15,6 +15,8 @@ h1, h2, h3 {
   flex-direction: column;
   justify-content: center; 
   width: 100%;
+  max-width: 500px;
+  margin: auto;
 }
 
 .logo {
@@ -22,7 +24,7 @@ h1, h2, h3 {
 }
 
 .question-card {
-  background-color: #7e1326;
+  background-color: #9e182f;
   color: white;
   display: flex;
   flex-direction: column;
@@ -34,15 +36,16 @@ h1, h2, h3 {
 }
 
 .option {
-  background-color: #650f1e;
+  background-color: #7e1326;
   color: white;
   padding: 5%;
   border-radius: 12px;
   width: 90%;
+  transition: all 0.1s ease-in-out;
 }
 
 .option-selected {
-  background-color: #4E0000;
+  background-color: #5f0e1c;
   border: 1px solid white;
   color: white;
   padding: 5%;
@@ -51,7 +54,7 @@ h1, h2, h3 {
 
 button {
   background-color: #7e1326;  
-  border: 2px solid #4E0000;
+  border: 1px solid #7e1326;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -61,4 +64,16 @@ button {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 20px;  
+  transition: all 0.1s ease-in-out;
+  outline: none; 
+  user-select: none; 
+  -webkit-tap-highlight-color: transparent;
 }
+
+
+button:active {
+  background-color: #5f0e1c; 
+  transform: scale(0.95); 
+  outline: none;
+}
+

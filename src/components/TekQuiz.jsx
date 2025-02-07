@@ -60,7 +60,6 @@ function TekQuiz() {
       };
     });
 
-    // console.log("Resultater:", percentages);
     setQuizPercentage(percentages);
 
   };

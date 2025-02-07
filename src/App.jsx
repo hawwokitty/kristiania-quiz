@@ -7,7 +7,7 @@ function App() {
       <div className="main-body">
         <img
           className="logo"
-          src="./Kristiania_logo_vertikal_stor_22_hvit.png"
+          src="./Kristiania_logo_vertikal_stor_22_sort.png"
           alt="logo"
         />
         <Welcome />

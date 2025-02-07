@@ -60,7 +60,6 @@ function CatQuiz() {
       };
     });
 
-    // console.log("Resultater:", percentages);
 
     const ecoCount =
       categoryCounts["Økonomi og administrasjon"] +
@@ -95,9 +94,7 @@ function CatQuiz() {
       />
       <Button
         onClick={handleNext}
-        text={
-          currentQuestionIndex < allQuestions.length - 1 ? "Neste" : "Fullfør"
-        }
+        text={"Neste"}
       />
     </div>
   );

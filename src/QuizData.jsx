@@ -126,73 +126,74 @@ const tek = [
       name: "Bachelor i økonomi og ledelse",
       category: "Økonomi og ledelse",
       url: "https://www.kristiania.no/studier/bachelor/okonomi-og-ledelse/",
-      description: "Description for Bachelor i økonomi og ledelse." // Add your description here
+      description: "God tallforståelse er et krav for dagens og fremtidens ledere. Med en bachelor i økonomi og ledelse får du en solid utdanning som gjør deg attraktiv på arbeidsmarkedet."
     },
     digitaliseringOkonomi: {
       name: "Bachelor i digitalisering og økonomi",
       category: "Digitalisering og økonomi",
       url: "https://www.kristiania.no/studier/bachelor/digitalisering-og-okonomi/",
-      description: "Description for Bachelor i digitalisering og økonomi." // Add your description here
+      description: "Vil du lede IT-prosjekter som skaper digitale produkter og tjenester for fremtiden? Med en bachelor i digitalisering og økonomi blir du verdifull i den digitale endringsprosessen som nå skjer i alle bransjer."
     },
     logistikkSCM: {
       name: "Bachelor i logistikk og Supply Chain Management",
       category: "Logistikk og Supply Chain Management",
       url: "https://www.kristiania.no/studier/bachelor/logistikk-og-supply-chain-management/",
-      description: "Description for Bachelor i logistikk og Supply Chain Management." // Add your description here
+      description: "Med en bachelorgrad i logistikk og SCM får du ettertraktet kompetanse innen transport, handel og økonomi og kan lage effektive, bærekraftige logistikkløsninger."
     },
     innovasjonForretningsutvikling: {
       name: "Bachelor i innovasjon og forretningsutvikling",
       category: "Innovasjon og forretningsutvikling",
       url: "https://www.kristiania.no/studier/bachelor/innovasjon-og-forretningsutvikling/",
-      description: "Description for Bachelor i innovasjon og forretningsutvikling." // Add your description here
+      description: "Dette er studiet for deg som vil se idéer realisert. Med en bachelor i innovasjon og forretningsutvikling får du kunnskapen du trenger for å skape morgendagens løsninger, tjenester og produkter."
     }
-  };
+};
 
-  const techBachelorPrograms = {
+const techBachelorPrograms = {
     cybersikkerhet: {
       name: "Bachelor i Cybersikkerhet",
       category: "Cybersikkerhet",
       url: "https://www.kristiania.no/studier/bachelor/cybersikkerhet/",
-      description: "Description for Bachelor i Cybersikkerhet." // Add your description here
+      description: "Vil du bidra til å sikre samfunnet mot digitale trusler? Med en bachelorgrad i cybersikkerhet vil du bli en ettertraktet kandidat for flere spennende stillinger."
     },
     artificialIntelligence: {
       name: "Bachelor i Artificial Intelligence",
       category: "Artificial Intelligence",
       url: "https://www.kristiania.no/studier/bachelor/artificial-intelligence/",
-      description: "Description for Bachelor i Artificial Intelligence." // Add your description here
+      description: "Dette studiet gir deg den nødvendige kunnskapen og ferdighetene for å designe og implementere AI-systemer – en høyt etterspurt kompetanse i en teknologidrevet verden hvor kunstig intelligens er i sterk vekst."
     },
     dataScience: {
       name: "Bachelor i Data Science",
       category: "Data Science",
       url: "https://www.kristiania.no/studier/bachelor/data-science/",
-      description: "Description for Bachelor i Data Science." // Add your description here
+      description: "Har du hjerte for IT og hode for analyse? Med en bachelor i Data Science blir du ettertraktet på jobbmarkedet og kan glede deg til en spennende karriere i en bransje i sterk vekst."
     },
     informasjonsteknologi: {
+      name: "Bachelor i Informasjonsteknologi",
       category: "Informasjonsteknologi",
       programs: [
         {
           name: "Bachelor i informasjonsteknologi - Programmering",
           url: "https://www.kristiania.no/studier/bachelor/informasjonsteknologi-programmering/",
-          description: "Description for Bachelor i informasjonsteknologi - Programmering." // Add your description here
+          description: "Dette er utdanningen for deg som vil skrive god kode, enten du vil bygge og vedlikeholde apper og nettsider eller IT-systemer. En bachelor i programmering gir deg kompetanse arbeidslivet roper etter."
         },
         {
           name: "Bachelor i informasjonsteknologi - Frontend- og mobilutvikling",
           url: "https://www.kristiania.no/studier/bachelor/informasjonsteknologi-frontend-og-mobilutvikling/",
-          description: "Description for Bachelor i informasjonsteknologi - Frontend- og mobilutvikling." // Add your description here
+          description: "Vil du lære programmering samtidig som du lager attraktive design? Denne utdanningen byr på svært gode jobbmuligheter."
         },
         {
           name: "Bachelor i informasjonsteknologi - E-business",
           url: "https://www.kristiania.no/studier/bachelor/informasjonsteknologi-e-business/",
-          description: "Description for Bachelor i informasjonsteknologi - E-business." // Add your description here
+          description: "Lær hvordan IT-baserte forretningssystemer skaper verdier for folk, organisasjoner og samfunn. Et helt unikt studium i Norge, som gjør deg til en brobygger mellom bedrifter og nyskapende teknologi."
         },
         {
           name: "Bachelor i informasjonsteknologi - Interaksjonsdesign",
           url: "https://www.kristiania.no/studier/bachelor/informasjonsteknologi-interaksjonsdesign/",
-          description: "Description for Bachelor i informasjonsteknologi - Interaksjonsdesign." // Add your description here
+          description: "Denne bachelorgraden ligger i skjæringspunktet mellom design og programmering. Lær å utvikle brukervennlige og effektive webløsninger som både fungerer godt og ser bra ut!"
         }
       ]
     }
-  };
+};
   
   
 
