@@ -44,6 +44,7 @@ function CatQuiz() {
       "Økonomi og administrasjon": 0,
       "Innovasjon og entreprenørskap": 0,
       "Teknologi og digitalisering": 0,
+      "Logistikk": 0,
     };
 
     answers.forEach((answer) => {
@@ -63,6 +64,7 @@ function CatQuiz() {
 
     const ecoCount =
       categoryCounts["Økonomi og administrasjon"] +
+      categoryCounts["Logistikk"] +
       categoryCounts["Innovasjon og entreprenørskap"];
     const tekCount = categoryCounts["Teknologi og digitalisering"];
 

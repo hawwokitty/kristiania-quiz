@@ -51,6 +51,10 @@ function Result({ allResults }) {
     setShowMore(!showMore); // Toggle visibility
   };
 
+  const handleRetakeQuiz = () => {
+    location.reload();
+  }
+
 
   return (
     <div className="question-card">
@@ -153,6 +157,10 @@ function Result({ allResults }) {
           ))}
         </div>
       )}
+      <div>
+        <p>Nysgjerrig på om et annet svar passer bedre? <a href="">Prøv igjen!</a></p>
+        {/* <Button onClick={() => handleRetakeQuiz()} text={"Ta quizzen på nytt"}/> */}
+      </div>
     </div>
   );
 }

@@ -4,7 +4,8 @@ const cat = [
     options: [
       { text: "Å forstå hvordan bedrifter tjener penger og styrer økonomien 📊", category: "Økonomi og administrasjon" },
       { text: "Å utvikle nye løsninger og forbedre eksisterende produkter eller tjenester 💡", category: "Innovasjon og entreprenørskap" },
-      { text: "Å jobbe med data, teknologi og digitale løsninger for fremtiden 🖥️", category: "Teknologi og digitalisering" }
+      { text: "Å jobbe med data, teknologi og digitale løsninger for fremtiden 🖥️", category: "Teknologi og digitalisering" },
+      { text: "Å forstå hvordan verdens globale vareflyt fungerer og styres 🚚", category: "Logistikk" },
     ]
   },
   {
@@ -12,7 +13,8 @@ const cat = [
     options: [
       { text: "Jobbe som leder eller økonomiansvarlig i en bedrift 💼", category: "Økonomi og administrasjon" },
       { text: "Drive med utvikling av nye produkter, tjenester og løsninger 🚀", category: "Innovasjon og entreprenørskap" },
-      { text: "Jobbe med programmering, kunstig intelligens eller dataanalyse 🔍", category: "Teknologi og digitalisering" }
+      { text: "Jobbe med programmering, kunstig intelligens eller dataanalyse 🔍", category: "Teknologi og digitalisering" },
+      { text: "Jobbe med å organisere transport og distribusjon slik at varer når frem til rett sted, til rett tid - på den mest bærekraftige måten 📦", category: "Logistikk" },
     ]
   },
   {
@@ -20,10 +22,12 @@ const cat = [
     options: [
       { text: "Investeringer, bærekraft og hvordan selskaper skaper verdier 📈", category: "Økonomi og administrasjon" },
       { text: "Kreativ problemløsning og utvikling av nye konsepter 🎯", category: "Innovasjon og entreprenørskap" },
-      { text: "Kunstig intelligens, cybersikkerhet eller big data 🤖", category: "Teknologi og digitalisering" }
+      { text: "Kunstig intelligens, cybersikkerhet eller big data 🤖", category: "Teknologi og digitalisering" },
+      { text: "Effektiv logistikk, forsyningskjeder og bærekraftig transport 🚛", category: "Logistikk" }
     ]
   }
 ];
+
 
 const tek = [
     {
@@ -88,7 +92,7 @@ const tek = [
         options: [
           { text: "Analysere en bedrifts økonomiske situasjon for å ta bedre beslutninger 📊", category: "Økonomi og ledelse" },
           { text: "Utvikle en digital løsning som effektiviserer økonomiske prosesser 📱", category: "Digitalisering og økonomi" },
-          { text: "Optimalisere logistikk og transport for en stor bedrift 📦", category: "Logistikk og Supply Chain Management" },
+          { text: "Forbedre og effektivisere forsyningskjeder og transport 📦", category: "Logistikk og Supply Chain Management" },
           { text: "Lage en forretningsplan for en ny innovativ startup 🚀", category: "Innovasjon og forretningsutvikling" }
         ]
       },
@@ -97,7 +101,7 @@ const tek = [
         options: [
           { text: "Jeg liker å forstå hvordan økonomiske beslutninger påvirker en bedrift 📊", category: "Økonomi og ledelse" },
           { text: "Jeg er interessert i hvordan teknologi kan gjøre økonomiske prosesser enklere 💻", category: "Digitalisering og økonomi" },
-          { text: "Jeg er fascinert av hvordan produkter fraktes fra fabrikk til butikk 🚛", category: "Logistikk og Supply Chain Management" },
+          { text: "Jobbe med netthandel og sørge for at varer leveres lynraskt til kunder over hele verden 🚛", category: "Logistikk og Supply Chain Management" },
           { text: "Jeg elsker å komme opp med nye ideer og løsninger 💡", category: "Innovasjon og forretningsutvikling" }
         ]
       },
@@ -115,7 +119,7 @@ const tek = [
         options: [
           { text: "Hvordan kan en bedrift øke lønnsomheten sin? 📊", category: "Økonomi og ledelse" },
           { text: "Hvordan kan kunstig intelligens brukes til å automatisere regnskap? 🤖", category: "Digitalisering og økonomi" },
-          { text: "Hvordan kan man effektivt transportere varer over hele verden? 🌍", category: "Logistikk og Supply Chain Management" },
+          { text: "Hvordan redusere miljøavtrykket i logistikk og finne grønne løsninger for transport og vareflyt 🌍", category: "Logistikk og Supply Chain Management" },
           { text: "Hvordan kan jeg lansere en ny forretningsidé med suksess? 🚀", category: "Innovasjon og forretningsutvikling" }
         ]
       }
