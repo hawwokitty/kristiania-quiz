@@ -90,10 +90,10 @@ const tek = [
       {
         question: "Hvilket scenario ville du funnet mest interessant å jobbe med?",
         options: [
-          { text: "Analysere en bedrifts økonomiske situasjon for å ta bedre beslutninger 📊", category: "Økonomi og ledelse" },
+          { text: "Bruke både businessforståelse og teknologi til å få en bedrift til å fungere smartere 🚀", category: "Økonomi og ledelse" },
           { text: "Håndtere en krisesituasjon og sikre at virksomheten er forberedt på risiko og trusler 🚨", category: "Digitalisering og økonomi" },
           { text: "Forbedre og effektivisere forsyningskjeder og transport 📦", category: "Logistikk og Supply Chain Management" },
-          { text: "Lage en forretningsplan for en ny innovativ startup 🚀", category: "Innovasjon og forretningsutvikling" }
+          { text: "Lage en forretningsplan for en ny innovativ startup 💡", category: "Innovasjon og forretningsutvikling" }
         ]
       },
       {
