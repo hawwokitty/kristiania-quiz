@@ -3,26 +3,26 @@ const cat = [
     question: "Hva motiverer deg mest i et studium?",
     options: [
       { text: "Å forstå hvordan bedrifter tjener penger og styrer økonomien 📊", category: "Økonomi og administrasjon" },
-      { text: "Å utvikle nye løsninger og forbedre eksisterende produkter eller tjenester 💡", category: "Innovasjon og entreprenørskap" },
-      { text: "Å jobbe med data, teknologi og digitale løsninger for fremtiden 🖥️", category: "Teknologi og digitalisering" },
+      { text: "Å skape nye løsninger og forbedre eksisterende produkter eller tjenester 💡", category: "Innovasjon og entreprenørskap" },
+      { text: "Å jobbe med teknologi, data og digitale løsninger for fremtiden 🖥️", category: "Teknologi og digitalisering" },
       { text: "Å forstå hvordan verdens globale vareflyt fungerer og styres 🚚", category: "Logistikk" },
     ]
   },
   {
     question: "Hvilken type jobb ser du for deg i fremtiden?",
     options: [
-      { text: "Jobbe som leder eller økonomiansvarlig i en bedrift 💼", category: "Økonomi og administrasjon" },
-      { text: "Drive med utvikling av nye produkter, tjenester og løsninger 🚀", category: "Innovasjon og entreprenørskap" },
-      { text: "Jobbe med programmering, kunstig intelligens eller dataanalyse 🔍", category: "Teknologi og digitalisering" },
+      { text: "Jobbe med analyse, økonomi og risikostyring for å hjelpe bedrifter og ta smarte valg 💼", category: "Økonomi og administrasjon" },
+      { text: "Drive med innovasjon og gjøre gode idéer til faktisk business 🚀", category: "Innovasjon og entreprenørskap" },
+      { text: "Jobbe med programmering, kunstig intelligens eller dataanalyse – for å utvikle smarte digitale løsninger 🔍", category: "Teknologi og digitalisering" },
       { text: "Jobbe med å organisere transport og distribusjon slik at varer når frem til rett sted, til rett tid - på den mest bærekraftige måten 📦", category: "Logistikk" },
     ]
   },
   {
     question: "Hvilket tema synes du høres mest spennende ut?",
     options: [
-      { text: "Investeringer, bærekraft og hvordan selskaper skaper verdier 📈", category: "Økonomi og administrasjon" },
+      { text: "Investeringer, bærekraft, sikkerhet og hvordan selskaper skaper verdier 📈", category: "Økonomi og administrasjon" },
       { text: "Kreativ problemløsning og utvikling av nye konsepter 🎯", category: "Innovasjon og entreprenørskap" },
-      { text: "Kunstig intelligens, cybersikkerhet eller big data 🤖", category: "Teknologi og digitalisering" },
+      { text: "Kunstig intelligens, cybersikkerhet, full-stack eller big data 🤖", category: "Teknologi og digitalisering" },
       { text: "Effektiv logistikk, forsyningskjeder og bærekraftig transport 🚛", category: "Logistikk" }
     ]
   }
@@ -35,7 +35,7 @@ const tek = [
       options: [
         { text: "Hvordan beskytte systemer mot hackere og datakriminalitet 🔐", category: "Cybersikkerhet" },
         { text: "Utvikling av nettsider, apper eller spill 🎮", category: "Informasjonsteknologi" },
-        { text: "Analysering av store datamengder for å finne mønstre 📊", category: "Data Science" },
+        { text: "Analyse av store datamengder for å finne mønstre 📊", category: "Data Science" },
         { text: "Skape intelligente systemer som kan lære og ta beslutninger 🤖", category: "Artificial Intelligence" }
       ]
     },
@@ -82,7 +82,7 @@ const tek = [
         question: "Hva interesserer deg mest innenfor forretningsverdenen?",
         options: [
           { text: "Hvordan bedrifter tjener penger og styres effektivt 📊", category: "Økonomi og ledelse" },
-          { text: "Hvordan teknologi kan forbedre økonomiske prosesser 🖥️", category: "Digitalisering og økonomi" },
+          { text: "Hvordan bedrifter håndterer risiko, sikkerhet og økonomiske beslutninger 🔐", category: "Digitalisering og økonomi" },
           { text: "Hvordan varer transporteres og lagres mest effektivt 🚚", category: "Logistikk og Supply Chain Management" },
           { text: "Hvordan man utvikler nye ideer og starter en bedrift 🚀", category: "Innovasjon og forretningsutvikling" }
         ]
@@ -91,7 +91,7 @@ const tek = [
         question: "Hvilket scenario ville du funnet mest interessant å jobbe med?",
         options: [
           { text: "Analysere en bedrifts økonomiske situasjon for å ta bedre beslutninger 📊", category: "Økonomi og ledelse" },
-          { text: "Utvikle en digital løsning som effektiviserer økonomiske prosesser 📱", category: "Digitalisering og økonomi" },
+          { text: "Håndtere en krisesituasjon og sikre at virksomheten er forberedt på risiko og trusler 🚨", category: "Digitalisering og økonomi" },
           { text: "Forbedre og effektivisere forsyningskjeder og transport 📦", category: "Logistikk og Supply Chain Management" },
           { text: "Lage en forretningsplan for en ny innovativ startup 🚀", category: "Innovasjon og forretningsutvikling" }
         ]
@@ -100,7 +100,7 @@ const tek = [
         question: "Hvilket av disse utsagnene passer best for deg?",
         options: [
           { text: "Jeg liker å forstå hvordan økonomiske beslutninger påvirker en bedrift 📊", category: "Økonomi og ledelse" },
-          { text: "Jeg er interessert i hvordan teknologi kan gjøre økonomiske prosesser enklere 💻", category: "Digitalisering og økonomi" },
+          { text: "Jeg liker å tenke på hvordan risiko, sikkerhet og beredskap påvirker virksomheter 🔐", category: "Digitalisering og økonomi" },
           { text: "Jobbe med netthandel og sørge for at varer leveres lynraskt til kunder over hele verden 🚛", category: "Logistikk og Supply Chain Management" },
           { text: "Jeg elsker å komme opp med nye ideer og løsninger 💡", category: "Innovasjon og forretningsutvikling" }
         ]
@@ -109,7 +109,7 @@ const tek = [
         question: "Hvis du kunne jobbe i en bransje, hvilken ville du valgt?",
         options: [
           { text: "Bank, finans eller bedriftsrådgivning 🏦", category: "Økonomi og ledelse" },
-          { text: "Fintech eller økonomisk digitalisering 📲", category: "Digitalisering og økonomi" },
+          { text: "Virksomheter der sikkerhet, beredskap og risikostyring er avgjørende 🚨", category: "Digitalisering og økonomi" },
           { text: "Transport, logistikk eller varehandel 🚢", category: "Logistikk og Supply Chain Management" },
           { text: "Oppstartsselskaper eller innovasjonsavdelinger i store bedrifter 🚀", category: "Innovasjon og forretningsutvikling" }
         ]
@@ -118,7 +118,7 @@ const tek = [
         question: "Hvilken av disse utfordringene ville du helst løst?",
         options: [
           { text: "Hvordan kan en bedrift øke lønnsomheten sin? 📊", category: "Økonomi og ledelse" },
-          { text: "Hvordan kan kunstig intelligens brukes til å automatisere regnskap? 🤖", category: "Digitalisering og økonomi" },
+          { text: "Hvordan kan vi beskytte en virksomhet mot trusler og samtidig sikre økonomisk stabilitet? 🔐", category: "Digitalisering og økonomi" },
           { text: "Hvordan redusere miljøavtrykket i logistikk og finne grønne løsninger for transport og vareflyt 🌍", category: "Logistikk og Supply Chain Management" },
           { text: "Hvordan kan jeg lansere en ny forretningsidé med suksess? 🚀", category: "Innovasjon og forretningsutvikling" }
         ]
@@ -127,22 +127,22 @@ const tek = [
 
   const ecoBachelorPrograms = {
     okonomiLedelse: {
-      name: "Bachelor i økonomi og ledelse",
+      name: "Bachelor i økonomi og administrasjon",
       category: "Økonomi og ledelse",
-      url: "https://www.kristiania.no/studier/bachelor/okonomi-og-ledelse/",
-      description: "God tallforståelse er et krav for dagens og fremtidens ledere. Med en bachelor i økonomi og ledelse får du en solid utdanning som gjør deg attraktiv på arbeidsmarkedet."
+      url: "https://www.kristiania.no/studier/bachelor/okonomi-og-administrasjon/",
+      description: "God tallforståelse er et krav for dagens og fremtidens ledere. Med en bachelor i økonomi og administrasjon får du en solid utdanning som gjør deg attraktiv på arbeidsmarkedet."
     },
     digitaliseringOkonomi: {
-      name: "Bachelor i digitalisering og økonomi",
+      name: "Bachelor i sikkerhet og økonomi",
       category: "Digitalisering og økonomi",
-      url: "https://www.kristiania.no/studier/bachelor/digitalisering-og-okonomi/",
-      description: "Vil du lede IT-prosjekter som skaper digitale produkter og tjenester for fremtiden? Med en bachelor i digitalisering og økonomi blir du verdifull i den digitale endringsprosessen som nå skjer i alle bransjer."
+      url: "https://www.kristiania.no/studier/bachelor/sikkerhet-og-okonomi/",
+      description: "I en verden hvor digital sikkerhet og økonomisk stabilitet er avgjørende, gir Bachelor i sikkerhet og økonomi deg verktøyene du trenger for å beskytte organisasjoner og kritisk infrastruktur mot moderne trusler."
     },
     logistikkSCM: {
-      name: "Bachelor i logistikk og Supply Chain Management",
+      name: "Bachelor i Supply Chain Management og logistikk",
       category: "Logistikk og Supply Chain Management",
       url: "https://www.kristiania.no/studier/bachelor/logistikk-og-supply-chain-management/",
-      description: "Med en bachelorgrad i logistikk og SCM får du ettertraktet kompetanse innen transport, handel og økonomi og kan lage effektive, bærekraftige logistikkløsninger."
+      description: "Med en bachelorgrad i SCM og logistikk får du ettertraktet kompetanse innen transport, handel og økonomi og kan lage effektive, bærekraftige logistikkløsninger."
     },
     innovasjonForretningsutvikling: {
       name: "Bachelor i innovasjon og forretningsutvikling",
@@ -174,27 +174,9 @@ const techBachelorPrograms = {
     informasjonsteknologi: {
       name: "Bachelor i Informasjonsteknologi",
       category: "Informasjonsteknologi",
-      programs: [
-        {
-          name: "Bachelor i informasjonsteknologi - Programmering",
-          url: "https://www.kristiania.no/studier/bachelor/informasjonsteknologi-programmering/",
-          description: "Dette er utdanningen for deg som vil skrive god kode, enten du vil bygge og vedlikeholde apper og nettsider eller IT-systemer. En bachelor i programmering gir deg kompetanse arbeidslivet roper etter."
-        },
-        {
-          name: "Bachelor i informasjonsteknologi - Frontend- og mobilutvikling",
-          url: "https://www.kristiania.no/studier/bachelor/informasjonsteknologi-frontend-og-mobilutvikling/",
-          description: "Vil du lære programmering samtidig som du lager attraktive design? Denne utdanningen byr på svært gode jobbmuligheter."
-        },
-        {
-          name: "Bachelor i informasjonsteknologi - E-business",
-          url: "https://www.kristiania.no/studier/bachelor/informasjonsteknologi-e-business/",
-          description: "Lær hvordan IT-baserte forretningssystemer skaper verdier for folk, organisasjoner og samfunn. Et helt unikt studium i Norge, som gjør deg til en brobygger mellom bedrifter og nyskapende teknologi."
-        },
-        {
-          name: "Bachelor i informasjonsteknologi - Interaksjonsdesign",
-          url: "https://www.kristiania.no/studier/bachelor/informasjonsteknologi-interaksjonsdesign/",
-          description: "Denne bachelorgraden ligger i skjæringspunktet mellom design og programmering. Lær å utvikle brukervennlige og effektive webløsninger som både fungerer godt og ser bra ut!"
-        }
+      url: "https://www.kristiania.no/studier/bachelor/informasjonsteknologi-fullstack-utvikling/",
+      description: "Vil du jobbe med hele utviklingsprosessen, fra programmering og design til sikkerhet og testing, innen både frontend og backend? Da er dette utdanningen for deg!"
+    },
       ]
     }
 };
