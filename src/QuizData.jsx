@@ -34,9 +34,7 @@ const tek = [
       question: "Hvilket av disse temaene interesserer deg mest?",
       options: [
         { text: "Hvordan beskytte systemer mot hackere og datakriminalitet 🔐", category: "Cybersikkerhet" },
-        { text: "Utvikling av nettsider, apper eller spill 🎮", category: "Informasjonsteknologi" },
-        { text: "Analyse av store datamengder for å finne mønstre 📊", category: "Data Science" },
-        { text: "Skape intelligente systemer som kan lære og ta beslutninger 🤖", category: "Artificial Intelligence" }
+        { text: "Utvikling av nettsider, apper eller spill 🎮", category: "Informasjonsteknologi" }
       ]
     },
     {
