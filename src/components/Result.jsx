@@ -59,33 +59,7 @@ function Result({ allResults }) {
   return (
     <div className="question-card">
       <h2>🎉 Gratulerer! 🎉</h2>
-      {sortedPrograms.length > 0 &&
-        (sortedPrograms[0].category === "Informasjonsteknologi" ? (
-          <div>
-            <h3>
-              Basert på dine svar passer du best til en{" "}
-              {sortedPrograms[0].name || sortedPrograms[0].category}
-            </h3>
-            <p>
-              Det finnes flere linjer innenfor kategorien Informasjonsteknologi,
-              her er de:
-            </p>
-            {sortedPrograms[0].programs.map((program, index) => (
-              <div key={index}>
-                <h3>{program.name}</h3>
-                <p>{program.description}</p>
-                <p>
-                  Er du klar for å utforske fremtiden din innen {program.name}?
-                  Trykk på knappen under for mer informasjon:
-                </p>
-                <Button
-                  onClick={() => handleGoToProgram(program.url)}
-                  text={"Gå til programside"}
-                />
-              </div>
-            ))}
-          </div>
-        ) : (
+      {sortedPrograms.length > 0 && (
           <div>
             <h3>
               Basert på dine svar passer du best til en{" "}
@@ -102,7 +76,7 @@ function Result({ allResults }) {
               text={"Gå til programside"}
             />
           </div>
-        ))}
+        )}
 
       <p>
         Usikker på om dette er det rette valget for deg? <br />
