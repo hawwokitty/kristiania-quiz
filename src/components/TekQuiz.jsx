@@ -42,8 +42,6 @@ function TekQuiz() {
     const categoryCounts = {
       "Cybersikkerhet": 0,
       "Informasjonsteknologi": 0,
-      "Data Science": 0,
-      "Artificial Intelligence": 0,
     };
 
     answers.forEach((answer) => {
