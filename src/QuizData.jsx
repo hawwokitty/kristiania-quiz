@@ -176,8 +176,6 @@ const techBachelorPrograms = {
       category: "Informasjonsteknologi",
       url: "https://www.kristiania.no/studier/bachelor/informasjonsteknologi-fullstack-utvikling/",
       description: "Vil du jobbe med hele utviklingsprosessen, fra programmering og design til sikkerhet og testing, innen både frontend og backend? Da er dette utdanningen for deg!"
-    },
-      ]
     }
 };
   
