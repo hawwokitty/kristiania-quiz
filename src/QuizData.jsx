@@ -22,7 +22,7 @@ const cat = [
     options: [
       { text: "Investeringer, bærekraft, sikkerhet og hvordan selskaper skaper verdier 📈", category: "Økonomi og administrasjon" },
       { text: "Kreativ problemløsning og utvikling av nye konsepter 🎯", category: "Innovasjon og entreprenørskap" },
-      { text: "Kunstig intelligens, cybersikkerhet, full-stack eller big data 🤖", category: "Teknologi og digitalisering" },
+      { text: "Cybersikkerhet, full-stack utvikling og kunstig intelligens 🤖", category: "Teknologi og digitalisering" },
       { text: "Effektiv logistikk, forsyningskjeder og bærekraftig transport 🚛", category: "Logistikk" }
     ]
   }
@@ -35,6 +35,7 @@ const tek = [
       options: [
         { text: "Hvordan beskytte systemer mot hackere og datakriminalitet 🔐", category: "Cybersikkerhet" },
         { text: "Utvikling av nettsider, apper eller spill 🎮", category: "Informasjonsteknologi" }
+        
       ]
     },
     {
