@@ -13,7 +13,7 @@ const cat = [
     options: [
       { text: "Jobbe med analyse, økonomi og risikostyring for å hjelpe bedrifter og ta smarte valg 💼", category: "Økonomi og administrasjon" },
       { text: "Drive med innovasjon og gjøre gode idéer til faktisk business 🚀", category: "Innovasjon og entreprenørskap" },
-      { text: "Jobbe med programmering, kunstig intelligens eller dataanalyse – for å utvikle smarte digitale løsninger 🔍", category: "Teknologi og digitalisering" },
+      { text: "Jobbe med å utvikle smarte digitale løsninger som samfunnet trenger 🔍", category: "Teknologi og digitalisering" },
       { text: "Jobbe med å organisere transport og distribusjon slik at varer når frem til rett sted, til rett tid - på den mest bærekraftige måten 📦", category: "Logistikk" },
     ]
   },
@@ -43,36 +43,31 @@ const tek = [
       question: "Hva høres mest spennende ut for deg?",
       options: [
         { text: "Stoppe cyberangrep og beskytte sensitive data 🕵️‍♂️", category: "Cybersikkerhet" },
-        { text: "Lage en app fra bunnen av 🎮", category: "Informasjonsteknologi" },
-        { text: "Analysere data for å forutsi trender og atferd 📊", category: "Data Science" },
-        { text: "Skape en chatbot eller en AI-assistent 🤖", category: "Artificial Intelligence" }
+        { text: "Lage en app fra bunnen av 🎮", category: "Informasjonsteknologi" }
+        
       ]
     },
     {
       question: "Hvilket verktøy eller konsept synes du høres mest spennende ut?",
       options: [
         { text: "Brannmurer og kryptering 🔐", category: "Cybersikkerhet" },
-        { text: "HTML, CSS eller JavaScript 🎨", category: "Informasjonsteknologi" },
-        { text: "Python, SQL og store datasett 📊", category: "Data Science" },
-        { text: "Nevrale nettverk og deep learning 🧠", category: "Artificial Intelligence" }
+        { text: "HTML, CSS eller JavaScript 🎨", category: "Informasjonsteknologi" }
+        
       ]
     },
     {
       question: "Hvis du skulle velge en jobb, hva ville passet deg best?",
       options: [
         { text: "IT-sikkerhetsekspert eller etisk hacker 🛡️", category: "Cybersikkerhet" },
-        { text: "Webutvikler eller frontend-programmerer 💻", category: "Informasjonsteknologi" },
-        { text: "Dataanalytiker eller big data-ekspert 📊", category: "Data Science" },
-        { text: "AI-ingeniør eller spesialist på maskinlæring 🤖", category: "Artificial Intelligence" }
+        { text: "Webutvikler eller frontend-programmerer 💻", category: "Informasjonsteknologi" }
+        
       ]
     },
     {
       question: "Hvilket problem ville du helst løst?",
       options: [
         { text: "Beskytte en stor bedrift mot cyberangrep 🔐", category: "Cybersikkerhet" },
-        { text: "Lage en ny mobilapp eller et interaktivt nettsted 📱", category: "Informasjonsteknologi" },
-        { text: "Forutsi hvilke kunder som mest sannsynlig vil kjøpe et produkt 📈", category: "Data Science" },
-        { text: "Utvikle en AI som kan føre en naturlig samtale med mennesker 🤖", category: "Artificial Intelligence" }
+        { text: "Lage en ny mobilapp eller et interaktivt nettsted 📱", category: "Informasjonsteknologi" }
       ]
     }
   ];
