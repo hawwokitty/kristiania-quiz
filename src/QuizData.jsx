@@ -4,7 +4,7 @@ const cat = [
     options: [
       { text: "Å forstå hvordan bedrifter tjener penger og styrer økonomien 📊", category: "Økonomi og administrasjon" },
       { text: "Å skape nye løsninger og forbedre eksisterende produkter eller tjenester 💡", category: "Innovasjon og entreprenørskap" },
-      { text: "Å jobbe med teknologi, data og digitale løsninger for fremtiden 🖥️", category: "Teknologi og digitalisering" },
+      { text: "Å jobbe med teknologi, data, sikkerhet og digitale løsninger for fremtiden 🖥️", category: "Teknologi og digitalisering" },
       { text: "Å forstå hvordan verdens globale vareflyt fungerer og styres 🚚", category: "Logistikk" },
     ]
   },
