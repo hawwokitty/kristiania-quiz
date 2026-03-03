@@ -154,18 +154,6 @@ const techBachelorPrograms = {
       url: "https://www.kristiania.no/studier/bachelor/cybersikkerhet/",
       description: "Vil du bidra til å sikre samfunnet mot digitale trusler? Med en bachelorgrad i cybersikkerhet vil du bli en ettertraktet kandidat for flere spennende stillinger."
     },
-    artificialIntelligence: {
-      name: "Bachelor i Artificial Intelligence",
-      category: "Artificial Intelligence",
-      url: "https://www.kristiania.no/studier/bachelor/artificial-intelligence/",
-      description: "Dette studiet gir deg den nødvendige kunnskapen og ferdighetene for å designe og implementere AI-systemer – en høyt etterspurt kompetanse i en teknologidrevet verden hvor kunstig intelligens er i sterk vekst."
-    },
-    dataScience: {
-      name: "Bachelor i Data Science",
-      category: "Data Science",
-      url: "https://www.kristiania.no/studier/bachelor/data-science/",
-      description: "Har du hjerte for IT og hode for analyse? Med en bachelor i Data Science blir du ettertraktet på jobbmarkedet og kan glede deg til en spennende karriere i en bransje i sterk vekst."
-    },
     informasjonsteknologi: {
       name: "Bachelor i Informasjonsteknologi",
       category: "Informasjonsteknologi",
